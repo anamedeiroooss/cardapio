@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio de Pratos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cardápio de Pratos</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+        <section class="gallery">
+            <!-- Repetindo os cards para incluir 9 pratos -->
+            <div class="card">
+                <img src="https://img.cybercook.com.br/receitas/416/como-fazer-yakisoba-1.jpeg" alt="Yakisoba vegetariano">
+                <button onclick="expandImage('https://img.cybercook.com.br/receitas/416/como-fazer-yakisoba-1.jpeg')">Ver Imagem maior</button>
+                <button onclick="playDescription('Um fresco Yakisoba vegetariano')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://blog.biglar.com.br/wp-content/uploads/2023/03/Strogonoff-de-Frango.jpg" alt="Strogonoff de frango">
+                <button onclick="expandImage('https://blog.biglar.com.br/wp-content/uploads/2023/03/Strogonoff-de-Frango.jpg')">Ver Imagem maior</button>
+                <button onclick="playDescription('Um incrível Strogonoff de frango')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://assets.delirec.com/images%2FAj2Lk2CbFwP04EpnwALCird2l4V2%2Frecipe%2F4fc19341-2161-4e53-8524-ae39cbd2431d-Salada-tropical--gallery-0" alt="Salada tropical">
+                <button onclick="expandImage('https://assets.delirec.com/images%2FAj2Lk2CbFwP04EpnwALCird2l4V2%2Frecipe%2F4fc19341-2161-4e53-8524-ae39cbd2431d-Salada-tropical--gallery-0')">Ver Imagem maior</button>
+                <button onclick="playDescription('Uma salada tropical super refrescante')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/estadao/FIVYQFU6J5ND3PYRA6XQHR4NW4.jpg" alt="Bolo de chocolate">
+                <button onclick="expandImage('https://cloudfront-us-east-1.images.arcpublishing.com/estadao/FIVYQFU6J5ND3PYRA6XQHR4NW4.jpg')">Ver Imagem maior</button>
+                <button onclick="playDescription('Uma salada tropical super refrescante')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://j6t2y8j5.rocketcdn.me/wp-content/uploads/2021/02/como-fazer-sopa-de-legumes-historia-do-prato-receitas-deliciosas.jpg" alt="Imagem de uma sopa de legumes">
+                <button onclick="expandImage('https://j6t2y8j5.rocketcdn.me/wp-content/uploads/2021/02/como-fazer-sopa-de-legumes-historia-do-prato-receitas-deliciosas.jpg')">Ver Imagem maior</button>
+                <button onclick="playDescription('Sopa de legumes com batata, cenoura, cebola roxa e abóbora')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://vitat.com.br/receitas/images/recipeshandler.jpg?id=11453&tipo=r&default=s" alt="Imagem de um bife de frango grelhado">
+                <button onclick="expandImage('https://vitat.com.br/receitas/images/recipeshandler.jpg?id=11453&tipo=r&default=s')">Ver Imagem maior</button>
+                <button onclick="playDescription('Bife de frango grelhado ao ponto com molho de ervas')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://cdn.oceanserver.com.br/lojas/lightisgood/uploads_produto/risoto-de-camarao-ao-pomodoro-62b1401679020.jpg" alt="Imagem de um prato de risoto de camarão">
+                <button onclick="expandImage('https://cdn.oceanserver.com.br/lojas/lightisgood/uploads_produto/risoto-de-camarao-ao-pomodoro-62b1401679020.jpg')">Ver Imagem maior</button>
+                <button onclick="playDescription('Risoto de camarão com parmesão e ervas frescas')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://revistavertical.com.br/wp-content/uploads/2015/11/nachos-1.jpg" alt="Imagem de um prato de nachos mexicanos">
+                <button onclick="expandImage('https://revistavertical.com.br/wp-content/uploads/2015/11/nachos-1.jpg')">Ver Imagem maior</button>
+                <button onclick="playDescription('Nachos mexicanos com carne moída, queijo e molho picante')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://conteudo.polinize.com/content/images/2023/09/IMG_9964.jpeg" alt="Imagem de um bolo de pistache">
+                <button onclick="expandImage('https://conteudo.polinize.com/content/images/2023/09/IMG_9964.jpeg')">Ver Imagem maior</button>
+                <button onclick="playDescription('Bolo de pistache com cobertura de pasta de pistache e frutas frescas')">Ouvir Descrição</button>
+            </div>
+        </section>
+    </main>
+   
+    <footer>
+        <p> Desenvolvido por Ana Medeiros - Todos os direitos reservados</p>
+    </footer>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
